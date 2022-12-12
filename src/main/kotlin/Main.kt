@@ -1,14 +1,15 @@
 import Menu.*
 
 fun main() {
+
     println(MENU_INICIAL.Opcoes)
 
     do {
         val selecaoMenuPrincipal = readln().toInt()
 
         when(selecaoMenuPrincipal){
-            1 -> Peixes()
-//            2 -> Peixes()
+            1 -> AdicionarPeixes()
+//            2 -> AlimentarPeixes()
             3 -> {
                 println("Seus peixes: ")
                 listaDePeixes.forEach { println(it) }
