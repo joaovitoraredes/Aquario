@@ -1,4 +1,4 @@
-class Peixe(private var id: Int, private var nome: String, private var cor: String, private var tamanho: String){
+data class PeixeDC(private var id: Int, private var nome: String, private var cor: String, private var tamanho: String){
 
     override fun toString(): String {
         return """
