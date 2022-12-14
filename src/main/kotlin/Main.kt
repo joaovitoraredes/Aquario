@@ -12,9 +12,7 @@ fun main() {
     escolherTamanhoAquario()
 
     /* Agora selecinar oque quer fazer com o aquário comprado */
-    /* Assim "chamando" class aquário */
-//    println("Agora que você tem seu aquário, oque deseja fazer?") // TALVEZ TIRAR ESSA FRASE
-    println(MENUS_INICIAL.Opcoes) // monstar a quantidade de peixes restante pela capacidade do aquário
+    println(MENUS_INICIAL.Opcoes)
 
     do {
         val selecaoMenuPrincipal = readln().toInt()
